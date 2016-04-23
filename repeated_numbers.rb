@@ -33,6 +33,5 @@ class RepeatedNumbersTests < Minitest::Test
     array = [1, 2, 1, 3]
     NumberMaster.give_me_the_repeated_of(array)
     assert_equal array.size, 4
-
   end
 end
